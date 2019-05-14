@@ -20,3 +20,9 @@ Also, database access credentials have to be corrected in the resources/applicat
 
 mvn spring-boot:run
 
+Application uses swagger2, so whole interface capabilities could be checked and tested by address: 
+
+http://localhost:8080/swagger-ui.html#/employee-controller/
+
+Application creates events for kafka and writes all events to the "events" db table
+
