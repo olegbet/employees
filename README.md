@@ -13,7 +13,8 @@ zkserver
 
 kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic employees
 
-### 2. MySQL should be installed and running and database "test" should be created.
+### 2. MySQL should be installed and running and database "test" should be created. 
+Also, database access credentials have to be corrected in the resources/application.properties file
 
 ### 3. In order to run service, following command should be executed in the project directory (employees):
 
