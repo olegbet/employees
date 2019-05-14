@@ -26,3 +26,14 @@ http://localhost:8080/swagger-ui.html#/employee-controller/
 
 Application creates events for kafka and writes all events to the "events" db table
 
+Also, in order to use the application user should be authorized:
+
+username: user
+password: password
+
+##Docker container
+
+Now it can be started in docker container:
+From project directory run the command
+docker-compose up
+
