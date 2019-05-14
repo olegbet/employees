@@ -31,7 +31,7 @@ Also, in order to use the application user should be authorized:
 username: user
 password: password
 
-##Docker container
+## Docker container
 
 Now it can be started in docker container:
 From project directory run the command
